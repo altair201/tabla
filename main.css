@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    border-style: dotted ;
+    padding: 10px;
+}
+tr{
+    border: solid 1px;
+}
+th{
+    border: solid 1px;
+    background-color: rgb(81, 81, 252);
+    
+}
+table tr:hover{
+    background-color: #f00;
+    cursor: cell;
+}
+p{
+    font-weight: 700;
+    font-size: large;
+}
